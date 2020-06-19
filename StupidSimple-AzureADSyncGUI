@@ -1,4 +1,4 @@
-$serverHostingADConnect = "V-PROT-ADConnec"
+$serverHostingADConnect = "servername"
 
 $msgBoxAnswer = [System.Windows.MessageBox]::Show('Run Delta Azure AD Sync?','Start-ADSyncSyncCycle','YesNoCancel','Question')
 	switch ($msgBoxAnswer){
